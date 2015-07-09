@@ -79,3 +79,11 @@ Now use that script with forever:
 ``` bash
 forever start -c ./python_virtualenv python_script.py
 ```
+
+---
+
+``` bash
+pip freeze > requirements.txt
+pip install -r requirements.txt
+# pip install Django==1.8.3
+```
