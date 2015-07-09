@@ -87,3 +87,9 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 # pip install Django==1.8.3
 ```
+
+---
+
+```
+static/dist/data.json
+```
